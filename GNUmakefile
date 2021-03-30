@@ -13,3 +13,5 @@ handmade: mycode.cpp
 submit:
 	cat mycode.cpp | xclip -selection c
 
+reset:
+	cp references/mycode.cpp ./mycode.cpp
